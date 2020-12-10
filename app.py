@@ -4,6 +4,7 @@ import joblib
 import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.patches import Circle, Wedge, Rectangle
+from sklearn.cluster import KMeans
 import shap
 shap.initjs()
 import time
